@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './ProductGrid.css';
 import './ProductCard.css';
-mport axios from "axios";
+import axios from "axios";
 
 const URL = "http://localhost:7000/api/v1";
 // login request method
