@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './ProductGrid.css';
 import './ProductCard.css';
+
 // import loginUser from "./user-access"
 import axios from "axios";
 
@@ -87,12 +88,6 @@ const CreateProduct = async (body) => {
 
 // envoking produts routes
 // CreateProduct(productBody)
-
-
-
-
-
-
 const ProductGrid = () => {
   const [products, setProducts] = useState(() => {
     const savedProducts = localStorage.getItem('products');
